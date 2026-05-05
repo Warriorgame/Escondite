@@ -1,0 +1,6 @@
+HideGround paquete regenerado desde cero para evitar error de descarga.
+Instalación:
+1) Descomprime.
+2) cd escondite
+3) npm install
+4) npm run dev

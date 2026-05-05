@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=hideground7" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png?v=hideground7" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png?v=hideground7" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=hideground7" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=hideground7" />
+    <link rel="manifest" href="/site.webmanifest?v=hideground7" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>HideGround</title>
+    <meta name="description" content="HideGround: juego de escondite con roles, zona, fotos y eventos.">
+    <meta name="author" content="HideGround" />
+
+    <!-- TODO: Update og:title to match your application name -->
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9c1b9283-6f36-46c3-bd78-09d91990c58b/id-preview-7d37c9f6--78f7420c-dc6e-4459-a390-a7dce0630192.hideground.app-1771757368847.png">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9c1b9283-6f36-46c3-bd78-09d91990c58b/id-preview-7d37c9f6--78f7420c-dc6e-4459-a390-a7dce0630192.hideground.app-1771757368847.png">
+    <meta property="og:title" content="HideGround">
+  <meta name="twitter:title" content="HideGround">
+  <meta property="og:description" content="Juego con roles, zona, fotos y eventos.">
+  <meta name="twitter:description" content="Juego con roles, zona, fotos y eventos.">
+</head>
+
+  <body>
+    <script id="hideground-console-filter">
+      (function () {
+        var originalInfo = console.info;
+        console.info = function () {
+          try {
+            var first = arguments && arguments[0] ? String(arguments[0]) : '';
+            if (first.indexOf('Download the React DevTools') !== -1) return;
+          } catch (e) {}
+          return originalInfo.apply(console, arguments);
+        };
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

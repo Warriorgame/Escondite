@@ -1,0 +1,10 @@
+PARA COMPILAR SIN ANDROID STUDIO:
+
+1) Sube el contenido de esta carpeta a GitHub.
+2) En GitHub ve a Actions.
+3) Ejecuta: Build HideGround APK.
+4) Descarga el artifact: HideGround-debug-apk.
+5) Dentro estará app-debug.apk.
+
+Instrucciones completas:
+COMPILAR_APK_SIN_ANDROID_STUDIO.md
